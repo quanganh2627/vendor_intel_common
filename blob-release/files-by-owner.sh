@@ -19,6 +19,7 @@ cat ../vendor_owner_info.txt |
 cut -d : -f 2 |
 sort -u |
 grep -v google |
+grep -v nodist |
 while read target_owner
 do
 cat > $target_owner/staging/device-partial.mk << EOF
