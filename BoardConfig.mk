@@ -35,6 +35,11 @@ TARGET_MODULE_GENKEY := device/intel/common/testkeys/kernel.x509.genkey
 # Copied from the generic_x86 config.
 BOARD_MALLOC_ALIGNMENT := 16
 
+# Default bitness for the Linux kernel and UEFI executables.
+# Can be overridden in the product configuration if necessary
+TARGET_KERNEL_ARCH := x86_64
+TARGET_UEFI_ARCH := x86_64
+
 $(call add-path-map, stlport:external/stlport/stlport \
        libxml2:external/libxml2/include \
        tinyalsa:external/tinyalsa/include)
