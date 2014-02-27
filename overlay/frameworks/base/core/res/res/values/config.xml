@@ -1,0 +1,10 @@
+<resources>
+  <!-- Shown when external media is unsafely removed -->
+  <add-resource type="string" name="ext_media_usb_badremoval_notification_message"/>
+  <string translatable="false" name="ext_media_usb_badremoval_notification_message">Unmount USB storage before removing to avoid data loss.</string>
+  <add-resource type="string" name="ext_media_usb_badremoval_notification_title"/>
+  <string translatable="false" name="ext_media_usb_badremoval_notification_title">USB storage unexpectedly removed</string>
+  <!-- Shown when external media is being checked -->
+  <add-resource type="string" name="ext_media_usb_checking_notification_title"/>
+  <string translatable="false" name="ext_media_usb_checking_notification_title">Preparing USB storage</string>
+</resources>

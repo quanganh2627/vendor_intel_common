@@ -1,0 +1,5 @@
+<resources>
+  <java-symbol type="string" name="ext_media_usb_badremoval_notification_message" />
+  <java-symbol type="string" name="ext_media_usb_badremoval_notification_title" />
+  <java-symbol type="string" name="ext_media_usb_checking_notification_title" />
+</resources>
