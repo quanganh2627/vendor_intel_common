@@ -20,7 +20,6 @@
 # In particular, you can add lunch options with the add_lunch_combo
 # function: add_lunch_combo generic-eng
 
-add_lunch_combo emu_houdini-eng
 add_lunch_combo pc_generic-eng
 
 # We want to be able to run this multiple times without
